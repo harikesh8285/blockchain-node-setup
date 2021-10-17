@@ -13,9 +13,9 @@ and many more which is similiar like bitcoin you just need to change the Change 
 
 ## On Linux
 
-Right now you can run this only on linux. Use the following command
+Right now you can run this only on linux. Use the following command:<br/>
 ### To run litecoin node run litecoin.sh
-`cd litecoin-node`
+`cd litecoin-node`<br/>
 `./litecoin.sh`
 
 ### To run bitcoin node run bitcoin.sh

@@ -4,9 +4,9 @@ You can use this script to install litecoin blockchain node on your system
 
 ## On Linux
 
-Right now you can run this only on linux. Use the following command
-`git clone https://github.com/harikesh8285/blockchain-node-setup.git`
-`cd litecoin-node`
+Right now you can run this only on linux. Use the following command:<br/>
+`git clone https://github.com/harikesh8285/blockchain-node-setup.git`<br/>
+`cd litecoin-node`<br/>
 `./litecoin.sh`
 
 
