@@ -3,7 +3,7 @@ BLOCKCHAIN="bitcoin-abc"
 VERSION="0.24.3"
 RPCUSER="username"
 RPCPASSWORD="password"
-SOURCE=wget https://download.bitcoinabc.org/$BLOCKCHAIN-$VERSION/linux/$BLOCKCHAIN-$VERSION-x86_64-linux-gnu.tar.gz
+SOURCE=wget https://download.bitcoinabc.org/$VERSION/linux/$BLOCKCHAIN-$VERSION-x86_64-linux-gnu.tar.gz
 wget $SOURCE
 tar -zxvf $BLOCKCHAIN-$VERSION-x86_64-linux-gnu.tar.gz
 sudo install -m 0755 -o root -g root -t /usr/local/bin ~/$BLOCKCHAIN-$VERSION/bin/*
